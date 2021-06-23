@@ -1,0 +1,579 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 01:39:26
+* VERSION: 1.4.0
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.0.33-29+0~20200514.36+debian9~1.gbp126f6f|7.0.33-29+0~20200514.36+debian9~1.gbp126f6f
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2021-04-02 10:54:26
+WP VERSION__________: 5.5.3
+DUP VERSION_________: 1.4.0
+DB__________________: 10.1.26
+DB TABLES___________: 32
+DB ROWS_____________: 5,186
+DB FILE SIZE________: 51.89MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.0.33-29+0~20200514.36+debian9~1.gbp126f6f | SAPI: fpm-fcgi
+PHP MEMORY__________: 1G | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "/home/arvy5666/arv.co.th/www"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "https://www.arv.co.th/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/home/arvy5666/arv.co.th/www/20210210_aiandroboticspartnerofchoi_[HASH]_20210402105426_archive.zip"
+SIZE________________: 1.05GB
+
+PRE-EXTRACT-CHECKS
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/home/arvy5666/arv.co.th/www/20210210_aiandroboticspartnerofchoi_[HASH]_20210402105426_archive.zip"
+SIZE________________: 1.05GBFile timestamp set to Current: 2021-04-02 13:39:47
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 01:39:57 - RUNTIME: 31.6141 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 01:40:30
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.1.26 -- Build Server: 10.1.26
+FILE SIZE:	dup-database__[HASH].sql (37.69MB)
+TIMEOUT:	5000
+MAXPACK:	16777216
+SQLMODE:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/arvy5666/arv.co.th/www/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	12
+RENAMED TABLES:	0
+QUERIES RAN:	6880
+
+wp_actionscheduler_actions: (67)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (2)
+wp_actionscheduler_logs: (198)
+wp_aiowps_events: (0)
+wp_aiowps_failed_logins: (2)
+wp_aiowps_global_meta: (0)
+wp_aiowps_login_activity: (19)
+wp_aiowps_login_lockdown: (2)
+wp_aiowps_permanent_block: (0)
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_ms_snippets: (0)
+wp_nextend2_image_storage: (0)
+wp_nextend2_section_storage: (1)
+wp_nextend2_smartslider3_generators: (0)
+wp_nextend2_smartslider3_sliders: (1)
+wp_nextend2_smartslider3_sliders_xref: (0)
+wp_nextend2_smartslider3_slides: (2)
+wp_options: (291)
+wp_postmeta: (5024)
+wp_posts: (1001)
+wp_snippets: (7)
+wp_term_relationships: (54)
+wp_term_taxonomy: (17)
+wp_termmeta: (0)
+wp_terms: (17)
+wp_usermeta: (50)
+wp_users: (2)
+wp_wpforms_tasks_meta: (34)
+Removed '53' cache/transient rows
+
+INSERT DATA RUNTIME: 2.3989 sec.
+STEP-2 COMPLETE @ 01:40:32 - RUNTIME: 2.4091 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 01:40:43
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "AI and Robotics Partner of Choice"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/arvy5666/arv.com/www"
+path_new______________: "/home/arvy5666/arv.co.th/www"
+siteurl_______________: "https://www.arv.co.th"
+url_old_______________: "http://arvcom.beeative.codeorange.host"
+url_new_______________: "https://www.arv.co.th"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    67][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/arvy5666/arv.com/www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  2:"\/home\/arvy5666\/arv.com\/www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  3:"%2Fhome%2Farvy5666%2Farv.com%2Fwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  4:"\home\arvy5666\arv.com\www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  5:"\\home\\arvy5666\\arv.com\\www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  6:"%5Chome%5Carvy5666%5Carv.com%5Cwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  7:"//arvcom.beeative.codeorange.host" ===============> "//www.arv.co.th"
+	SEARCH  8:"\/\/arvcom.beeative.codeorange.host" =============> "\/\/www.arv.co.th"
+	SEARCH  9:"%2F%2Farvcom.beeative.codeorange.host" ===========> "%2F%2Fwww.arv.co.th"
+	SEARCH 10:"http://www.arv.co.th" ============================> "https://www.arv.co.th"
+	SEARCH 11:"http:\/\/www.arv.co.th" ==========================> "https:\/\/www.arv.co.th"
+	SEARCH 12:"http%3A%2F%2Fwww.arv.co.th" ======================> "https%3A%2F%2Fwww.arv.co.th"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/arvy5666/arv.com/www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  2:"\/home\/arvy5666\/arv.com\/www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  3:"%2Fhome%2Farvy5666%2Farv.com%2Fwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  4:"\home\arvy5666\arv.com\www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  5:"\\home\\arvy5666\\arv.com\\www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  6:"%5Chome%5Carvy5666%5Carv.com%5Cwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  7:"//arvcom.beeative.codeorange.host" ===============> "//www.arv.co.th"
+	SEARCH  8:"\/\/arvcom.beeative.codeorange.host" =============> "\/\/www.arv.co.th"
+	SEARCH  9:"%2F%2Farvcom.beeative.codeorange.host" ===========> "%2F%2Fwww.arv.co.th"
+	SEARCH 10:"http://www.arv.co.th" ============================> "https://www.arv.co.th"
+	SEARCH 11:"http:\/\/www.arv.co.th" ==========================> "https:\/\/www.arv.co.th"
+	SEARCH 12:"http%3A%2F%2Fwww.arv.co.th" ======================> "https%3A%2F%2Fwww.arv.co.th"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:   198][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/arvy5666/arv.com/www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  2:"\/home\/arvy5666\/arv.com\/www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  3:"%2Fhome%2Farvy5666%2Farv.com%2Fwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  4:"\home\arvy5666\arv.com\www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  5:"\\home\\arvy5666\\arv.com\\www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  6:"%5Chome%5Carvy5666%5Carv.com%5Cwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  7:"//arvcom.beeative.codeorange.host" ===============> "//www.arv.co.th"
+	SEARCH  8:"\/\/arvcom.beeative.codeorange.host" =============> "\/\/www.arv.co.th"
+	SEARCH  9:"%2F%2Farvcom.beeative.codeorange.host" ===========> "%2F%2Fwww.arv.co.th"
+	SEARCH 10:"http://www.arv.co.th" ============================> "https://www.arv.co.th"
+	SEARCH 11:"http:\/\/www.arv.co.th" ==========================> "https:\/\/www.arv.co.th"
+	SEARCH 12:"http%3A%2F%2Fwww.arv.co.th" ======================> "https%3A%2F%2Fwww.arv.co.th"
+
+EVALUATE TABLE: "wp_aiowps_events"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_aiowps_failed_logins"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/arvy5666/arv.com/www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  2:"\/home\/arvy5666\/arv.com\/www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  3:"%2Fhome%2Farvy5666%2Farv.com%2Fwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  4:"\home\arvy5666\arv.com\www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  5:"\\home\\arvy5666\\arv.com\\www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  6:"%5Chome%5Carvy5666%5Carv.com%5Cwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  7:"//arvcom.beeative.codeorange.host" ===============> "//www.arv.co.th"
+	SEARCH  8:"\/\/arvcom.beeative.codeorange.host" =============> "\/\/www.arv.co.th"
+	SEARCH  9:"%2F%2Farvcom.beeative.codeorange.host" ===========> "%2F%2Fwww.arv.co.th"
+	SEARCH 10:"http://www.arv.co.th" ============================> "https://www.arv.co.th"
+	SEARCH 11:"http:\/\/www.arv.co.th" ==========================> "https:\/\/www.arv.co.th"
+	SEARCH 12:"http%3A%2F%2Fwww.arv.co.th" ======================> "https%3A%2F%2Fwww.arv.co.th"
+
+EVALUATE TABLE: "wp_aiowps_global_meta"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_aiowps_login_activity"________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/arvy5666/arv.com/www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  2:"\/home\/arvy5666\/arv.com\/www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  3:"%2Fhome%2Farvy5666%2Farv.com%2Fwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  4:"\home\arvy5666\arv.com\www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  5:"\\home\\arvy5666\\arv.com\\www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  6:"%5Chome%5Carvy5666%5Carv.com%5Cwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  7:"//arvcom.beeative.codeorange.host" ===============> "//www.arv.co.th"
+	SEARCH  8:"\/\/arvcom.beeative.codeorange.host" =============> "\/\/www.arv.co.th"
+	SEARCH  9:"%2F%2Farvcom.beeative.codeorange.host" ===========> "%2F%2Fwww.arv.co.th"
+	SEARCH 10:"http://www.arv.co.th" ============================> "https://www.arv.co.th"
+	SEARCH 11:"http:\/\/www.arv.co.th" ==========================> "https:\/\/www.arv.co.th"
+	SEARCH 12:"http%3A%2F%2Fwww.arv.co.th" ======================> "https%3A%2F%2Fwww.arv.co.th"
+
+EVALUATE TABLE: "wp_aiowps_login_lockdown"________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/arvy5666/arv.com/www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  2:"\/home\/arvy5666\/arv.com\/www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  3:"%2Fhome%2Farvy5666%2Farv.com%2Fwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  4:"\home\arvy5666\arv.com\www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  5:"\\home\\arvy5666\\arv.com\\www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  6:"%5Chome%5Carvy5666%5Carv.com%5Cwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  7:"//arvcom.beeative.codeorange.host" ===============> "//www.arv.co.th"
+	SEARCH  8:"\/\/arvcom.beeative.codeorange.host" =============> "\/\/www.arv.co.th"
+	SEARCH  9:"%2F%2Farvcom.beeative.codeorange.host" ===========> "%2F%2Fwww.arv.co.th"
+	SEARCH 10:"http://www.arv.co.th" ============================> "https://www.arv.co.th"
+	SEARCH 11:"http:\/\/www.arv.co.th" ==========================> "https:\/\/www.arv.co.th"
+	SEARCH 12:"http%3A%2F%2Fwww.arv.co.th" ======================> "https%3A%2F%2Fwww.arv.co.th"
+
+EVALUATE TABLE: "wp_aiowps_permanent_block"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/arvy5666/arv.com/www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  2:"\/home\/arvy5666\/arv.com\/www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  3:"%2Fhome%2Farvy5666%2Farv.com%2Fwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  4:"\home\arvy5666\arv.com\www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  5:"\\home\\arvy5666\\arv.com\\www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  6:"%5Chome%5Carvy5666%5Carv.com%5Cwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  7:"//arvcom.beeative.codeorange.host" ===============> "//www.arv.co.th"
+	SEARCH  8:"\/\/arvcom.beeative.codeorange.host" =============> "\/\/www.arv.co.th"
+	SEARCH  9:"%2F%2Farvcom.beeative.codeorange.host" ===========> "%2F%2Fwww.arv.co.th"
+	SEARCH 10:"http://www.arv.co.th" ============================> "https://www.arv.co.th"
+	SEARCH 11:"http:\/\/www.arv.co.th" ==========================> "https:\/\/www.arv.co.th"
+	SEARCH 12:"http%3A%2F%2Fwww.arv.co.th" ======================> "https%3A%2F%2Fwww.arv.co.th"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ms_snippets"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nextend2_image_storage"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nextend2_section_storage"_____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/arvy5666/arv.com/www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  2:"\/home\/arvy5666\/arv.com\/www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  3:"%2Fhome%2Farvy5666%2Farv.com%2Fwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  4:"\home\arvy5666\arv.com\www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  5:"\\home\\arvy5666\\arv.com\\www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  6:"%5Chome%5Carvy5666%5Carv.com%5Cwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  7:"//arvcom.beeative.codeorange.host" ===============> "//www.arv.co.th"
+	SEARCH  8:"\/\/arvcom.beeative.codeorange.host" =============> "\/\/www.arv.co.th"
+	SEARCH  9:"%2F%2Farvcom.beeative.codeorange.host" ===========> "%2F%2Fwww.arv.co.th"
+	SEARCH 10:"http://www.arv.co.th" ============================> "https://www.arv.co.th"
+	SEARCH 11:"http:\/\/www.arv.co.th" ==========================> "https:\/\/www.arv.co.th"
+	SEARCH 12:"http%3A%2F%2Fwww.arv.co.th" ======================> "https%3A%2F%2Fwww.arv.co.th"
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_generators"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_sliders"________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/arvy5666/arv.com/www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  2:"\/home\/arvy5666\/arv.com\/www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  3:"%2Fhome%2Farvy5666%2Farv.com%2Fwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  4:"\home\arvy5666\arv.com\www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  5:"\\home\\arvy5666\\arv.com\\www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  6:"%5Chome%5Carvy5666%5Carv.com%5Cwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  7:"//arvcom.beeative.codeorange.host" ===============> "//www.arv.co.th"
+	SEARCH  8:"\/\/arvcom.beeative.codeorange.host" =============> "\/\/www.arv.co.th"
+	SEARCH  9:"%2F%2Farvcom.beeative.codeorange.host" ===========> "%2F%2Fwww.arv.co.th"
+	SEARCH 10:"http://www.arv.co.th" ============================> "https://www.arv.co.th"
+	SEARCH 11:"http:\/\/www.arv.co.th" ==========================> "https:\/\/www.arv.co.th"
+	SEARCH 12:"http%3A%2F%2Fwww.arv.co.th" ======================> "https%3A%2F%2Fwww.arv.co.th"
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_sliders_xref"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_slides"_________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/arvy5666/arv.com/www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  2:"\/home\/arvy5666\/arv.com\/www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  3:"%2Fhome%2Farvy5666%2Farv.com%2Fwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  4:"\home\arvy5666\arv.com\www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  5:"\\home\\arvy5666\\arv.com\\www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  6:"%5Chome%5Carvy5666%5Carv.com%5Cwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  7:"//arvcom.beeative.codeorange.host" ===============> "//www.arv.co.th"
+	SEARCH  8:"\/\/arvcom.beeative.codeorange.host" =============> "\/\/www.arv.co.th"
+	SEARCH  9:"%2F%2Farvcom.beeative.codeorange.host" ===========> "%2F%2Fwww.arv.co.th"
+	SEARCH 10:"http://www.arv.co.th" ============================> "https://www.arv.co.th"
+	SEARCH 11:"http:\/\/www.arv.co.th" ==========================> "https:\/\/www.arv.co.th"
+	SEARCH 12:"http%3A%2F%2Fwww.arv.co.th" ======================> "https%3A%2F%2Fwww.arv.co.th"
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   291][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/arvy5666/arv.com/www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  2:"\/home\/arvy5666\/arv.com\/www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  3:"%2Fhome%2Farvy5666%2Farv.com%2Fwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  4:"\home\arvy5666\arv.com\www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  5:"\\home\\arvy5666\\arv.com\\www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  6:"%5Chome%5Carvy5666%5Carv.com%5Cwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  7:"//arvcom.beeative.codeorange.host" ===============> "//www.arv.co.th"
+	SEARCH  8:"\/\/arvcom.beeative.codeorange.host" =============> "\/\/www.arv.co.th"
+	SEARCH  9:"%2F%2Farvcom.beeative.codeorange.host" ===========> "%2F%2Fwww.arv.co.th"
+	SEARCH 10:"http://www.arv.co.th" ============================> "https://www.arv.co.th"
+	SEARCH 11:"http:\/\/www.arv.co.th" ==========================> "https:\/\/www.arv.co.th"
+	SEARCH 12:"http%3A%2F%2Fwww.arv.co.th" ======================> "https%3A%2F%2Fwww.arv.co.th"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  5024][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/arvy5666/arv.com/www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  2:"\/home\/arvy5666\/arv.com\/www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  3:"%2Fhome%2Farvy5666%2Farv.com%2Fwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  4:"\home\arvy5666\arv.com\www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  5:"\\home\\arvy5666\\arv.com\\www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  6:"%5Chome%5Carvy5666%5Carv.com%5Cwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  7:"//arvcom.beeative.codeorange.host" ===============> "//www.arv.co.th"
+	SEARCH  8:"\/\/arvcom.beeative.codeorange.host" =============> "\/\/www.arv.co.th"
+	SEARCH  9:"%2F%2Farvcom.beeative.codeorange.host" ===========> "%2F%2Fwww.arv.co.th"
+	SEARCH 10:"http://www.arv.co.th" ============================> "https://www.arv.co.th"
+	SEARCH 11:"http:\/\/www.arv.co.th" ==========================> "https:\/\/www.arv.co.th"
+	SEARCH 12:"http%3A%2F%2Fwww.arv.co.th" ======================> "https%3A%2F%2Fwww.arv.co.th"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:  1001][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/arvy5666/arv.com/www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  2:"\/home\/arvy5666\/arv.com\/www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  3:"%2Fhome%2Farvy5666%2Farv.com%2Fwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  4:"\home\arvy5666\arv.com\www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  5:"\\home\\arvy5666\\arv.com\\www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  6:"%5Chome%5Carvy5666%5Carv.com%5Cwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  7:"//arvcom.beeative.codeorange.host" ===============> "//www.arv.co.th"
+	SEARCH  8:"\/\/arvcom.beeative.codeorange.host" =============> "\/\/www.arv.co.th"
+	SEARCH  9:"%2F%2Farvcom.beeative.codeorange.host" ===========> "%2F%2Fwww.arv.co.th"
+	SEARCH 10:"http://www.arv.co.th" ============================> "https://www.arv.co.th"
+	SEARCH 11:"http:\/\/www.arv.co.th" ==========================> "https:\/\/www.arv.co.th"
+	SEARCH 12:"http%3A%2F%2Fwww.arv.co.th" ======================> "https%3A%2F%2Fwww.arv.co.th"
+
+EVALUATE TABLE: "wp_snippets"_____________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/arvy5666/arv.com/www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  2:"\/home\/arvy5666\/arv.com\/www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  3:"%2Fhome%2Farvy5666%2Farv.com%2Fwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  4:"\home\arvy5666\arv.com\www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  5:"\\home\\arvy5666\\arv.com\\www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  6:"%5Chome%5Carvy5666%5Carv.com%5Cwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  7:"//arvcom.beeative.codeorange.host" ===============> "//www.arv.co.th"
+	SEARCH  8:"\/\/arvcom.beeative.codeorange.host" =============> "\/\/www.arv.co.th"
+	SEARCH  9:"%2F%2Farvcom.beeative.codeorange.host" ===========> "%2F%2Fwww.arv.co.th"
+	SEARCH 10:"http://www.arv.co.th" ============================> "https://www.arv.co.th"
+	SEARCH 11:"http:\/\/www.arv.co.th" ==========================> "https:\/\/www.arv.co.th"
+	SEARCH 12:"http%3A%2F%2Fwww.arv.co.th" ======================> "https%3A%2F%2Fwww.arv.co.th"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    54][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/arvy5666/arv.com/www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  2:"\/home\/arvy5666\/arv.com\/www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  3:"%2Fhome%2Farvy5666%2Farv.com%2Fwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  4:"\home\arvy5666\arv.com\www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  5:"\\home\\arvy5666\\arv.com\\www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  6:"%5Chome%5Carvy5666%5Carv.com%5Cwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  7:"//arvcom.beeative.codeorange.host" ===============> "//www.arv.co.th"
+	SEARCH  8:"\/\/arvcom.beeative.codeorange.host" =============> "\/\/www.arv.co.th"
+	SEARCH  9:"%2F%2Farvcom.beeative.codeorange.host" ===========> "%2F%2Fwww.arv.co.th"
+	SEARCH 10:"http://www.arv.co.th" ============================> "https://www.arv.co.th"
+	SEARCH 11:"http:\/\/www.arv.co.th" ==========================> "https:\/\/www.arv.co.th"
+	SEARCH 12:"http%3A%2F%2Fwww.arv.co.th" ======================> "https%3A%2F%2Fwww.arv.co.th"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    17][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/arvy5666/arv.com/www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  2:"\/home\/arvy5666\/arv.com\/www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  3:"%2Fhome%2Farvy5666%2Farv.com%2Fwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  4:"\home\arvy5666\arv.com\www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  5:"\\home\\arvy5666\\arv.com\\www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  6:"%5Chome%5Carvy5666%5Carv.com%5Cwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  7:"//arvcom.beeative.codeorange.host" ===============> "//www.arv.co.th"
+	SEARCH  8:"\/\/arvcom.beeative.codeorange.host" =============> "\/\/www.arv.co.th"
+	SEARCH  9:"%2F%2Farvcom.beeative.codeorange.host" ===========> "%2F%2Fwww.arv.co.th"
+	SEARCH 10:"http://www.arv.co.th" ============================> "https://www.arv.co.th"
+	SEARCH 11:"http:\/\/www.arv.co.th" ==========================> "https:\/\/www.arv.co.th"
+	SEARCH 12:"http%3A%2F%2Fwww.arv.co.th" ======================> "https%3A%2F%2Fwww.arv.co.th"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    17][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/arvy5666/arv.com/www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  2:"\/home\/arvy5666\/arv.com\/www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  3:"%2Fhome%2Farvy5666%2Farv.com%2Fwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  4:"\home\arvy5666\arv.com\www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  5:"\\home\\arvy5666\\arv.com\\www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  6:"%5Chome%5Carvy5666%5Carv.com%5Cwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  7:"//arvcom.beeative.codeorange.host" ===============> "//www.arv.co.th"
+	SEARCH  8:"\/\/arvcom.beeative.codeorange.host" =============> "\/\/www.arv.co.th"
+	SEARCH  9:"%2F%2Farvcom.beeative.codeorange.host" ===========> "%2F%2Fwww.arv.co.th"
+	SEARCH 10:"http://www.arv.co.th" ============================> "https://www.arv.co.th"
+	SEARCH 11:"http:\/\/www.arv.co.th" ==========================> "https:\/\/www.arv.co.th"
+	SEARCH 12:"http%3A%2F%2Fwww.arv.co.th" ======================> "https%3A%2F%2Fwww.arv.co.th"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    50][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/arvy5666/arv.com/www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  2:"\/home\/arvy5666\/arv.com\/www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  3:"%2Fhome%2Farvy5666%2Farv.com%2Fwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  4:"\home\arvy5666\arv.com\www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  5:"\\home\\arvy5666\\arv.com\\www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  6:"%5Chome%5Carvy5666%5Carv.com%5Cwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  7:"//arvcom.beeative.codeorange.host" ===============> "//www.arv.co.th"
+	SEARCH  8:"\/\/arvcom.beeative.codeorange.host" =============> "\/\/www.arv.co.th"
+	SEARCH  9:"%2F%2Farvcom.beeative.codeorange.host" ===========> "%2F%2Fwww.arv.co.th"
+	SEARCH 10:"http://www.arv.co.th" ============================> "https://www.arv.co.th"
+	SEARCH 11:"http:\/\/www.arv.co.th" ==========================> "https:\/\/www.arv.co.th"
+	SEARCH 12:"http%3A%2F%2Fwww.arv.co.th" ======================> "https%3A%2F%2Fwww.arv.co.th"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/arvy5666/arv.com/www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  2:"\/home\/arvy5666\/arv.com\/www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  3:"%2Fhome%2Farvy5666%2Farv.com%2Fwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  4:"\home\arvy5666\arv.com\www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  5:"\\home\\arvy5666\\arv.com\\www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  6:"%5Chome%5Carvy5666%5Carv.com%5Cwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  7:"//arvcom.beeative.codeorange.host" ===============> "//www.arv.co.th"
+	SEARCH  8:"\/\/arvcom.beeative.codeorange.host" =============> "\/\/www.arv.co.th"
+	SEARCH  9:"%2F%2Farvcom.beeative.codeorange.host" ===========> "%2F%2Fwww.arv.co.th"
+	SEARCH 10:"http://www.arv.co.th" ============================> "https://www.arv.co.th"
+	SEARCH 11:"http:\/\/www.arv.co.th" ==========================> "https:\/\/www.arv.co.th"
+	SEARCH 12:"http%3A%2F%2Fwww.arv.co.th" ======================> "https%3A%2F%2Fwww.arv.co.th"
+
+EVALUATE TABLE: "wp_wpforms_tasks_meta"___________________________[ROWS:    34][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/arvy5666/arv.com/www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  2:"\/home\/arvy5666\/arv.com\/www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  3:"%2Fhome%2Farvy5666%2Farv.com%2Fwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  4:"\home\arvy5666\arv.com\www" ======================> "/home/arvy5666/arv.co.th/www"
+	SEARCH  5:"\\home\\arvy5666\\arv.com\\www" ==================> "\/home\/arvy5666\/arv.co.th\/www"
+	SEARCH  6:"%5Chome%5Carvy5666%5Carv.com%5Cwww" ==============> "%2Fhome%2Farvy5666%2Farv.co.th%2Fwww"
+	SEARCH  7:"//arvcom.beeative.codeorange.host" ===============> "//www.arv.co.th"
+	SEARCH  8:"\/\/arvcom.beeative.codeorange.host" =============> "\/\/www.arv.co.th"
+	SEARCH  9:"%2F%2Farvcom.beeative.codeorange.host" ===========> "%2F%2Fwww.arv.co.th"
+	SEARCH 10:"http://www.arv.co.th" ============================> "https://www.arv.co.th"
+	SEARCH 11:"http:\/\/www.arv.co.th" ==========================> "https:\/\/www.arv.co.th"
+	SEARCH 12:"http%3A%2F%2Fwww.arv.co.th" ======================> "https%3A%2F%2Fwww.arv.co.th"
+--------------------------------------
+SCANNED:	Tables:32 	|	 Rows:6792 	|	 Cells:47134 
+UPDATED:	Tables:4 	|	 Rows:1718 	|	 Cells:2117 
+ERRORS:		0 
+RUNTIME:	2.296300 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => simple-google-recaptcha/simple-google-recaptcha.php
+    [1] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 01:40:46 - RUNTIME: 2.3308 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
