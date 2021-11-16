@@ -1,0 +1,88 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 3 November 2021 3:06 am
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.4.3
+WORDPRESS:	5.8.1
+PHP INFO:	7.0.33-52+0~20210701.57+debian10~1.gbp8e49b6 | SAPI: fpm-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (1G default) 
+MEMORY STACK: 6MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported
+TABLES: total:53 | filtered:0 | create:53
+FILTERED: []
+SQL CREATED: arv2_dee35d47842ce3dc4163_20211103030556_database.sql
+SQL FILE SIZE: 44.8MB (46972439)
+SQL FILE TIME: 2021-11-03 03:06:18
+SQL RUNTIME: 3.59 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  /home/arvy5666/arvtest.co/www
+ARCHIVE FILE: arv2_dee35d47842ce3dc4163_20211103030556_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	1.37GB
+STATS:	Dirs 990 | Files 8,094
+SQL ADDED: arv2_dee35d47842ce3dc4163_20211103030556_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 9084
+    [filename] => /home/arvy5666/arvtest.co/www/wp-content/backups-dup-lite/tmp/arv2_dee35d47842ce3dc4163_20211103030556_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 9083
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 1.27GB
+ARCHIVE RUNTIME: 93.87 sec.
+MEMORY STACK: 12MB
+building installer
+[PHP ERR][WARN] MSG:is_readable(): open_basedir restriction in effect. File(/dev/urandom) is not within the allowed path(s): (/tmp:/usr/share/php:/home/arvy5666) [CODE:2|FILE:/home/arvy5666/arvtest.co/www/wp-content/plugins/duplicator/classes/class.password.php|LINE:63]
+do_action('wp_ajax_duplicator_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_package_build, DUP_Package->runZipBuild, DUP_Installer->build, DUP_Installer->create_enhanced_installer_files, DUP_Installer->create_archive_config_file, DUP_PasswordHash->HashPassword, DUP_PasswordHash->get_random_bytes, is_readable, DUP_Handler::error, DUP_Handler::getMessage
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip /home/arvy5666/arvtest.co/www/wp-content/backups-dup-lite/tmp/arv2_dee35d47842ce3dc4163_20211103030556_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 44.8MB
+INSTALLER FILE: 64.25KB
+ARCHIVE FILE: 1.27GB 
+EXPECTED FILE/DIRECTORY COUNT: 9,084
+ACTUAL FILE/DIRECTORY COUNT: 9,083
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[9]
+TOTAL PROCESS RUNTIME: 118.30 sec.
+PEAK PHP MEMORY USED: 14.64MB
+DONE PROCESSING => arv2 3 November 2021 3:08 am
+

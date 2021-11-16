@@ -1,0 +1,815 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 04:03:20
+* VERSION: 1.4.3
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.0.33-52+0~20210701.57+debian10~1.gbp8e49b6|7.0.33-52+0~20210701.57+debian10~1.gbp8e49b6
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2021-10-27 03:45:59
+WP VERSION__________: 5.8.1
+DUP VERSION_________: 1.4.3
+DB__________________: 10.3.31
+DB TABLES___________: 53
+DB ROWS_____________: 32,434
+DB FILE SIZE________: 74.38MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.0.33-52+0~20210701.57+debian10~1.gbp8e49b6 | SAPI: fpm-fcgi
+PHP MEMORY__________: 1G | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "/home/arvy5666/arvtest.co/www"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://arvtestco.beeative.codeorange.host/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/home/arvy5666/arvtest.co/www/arv2_[HASH]_20211027034559_archive.zip"
+SIZE________________: 1.22GB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' backed-up to .htaccess-211027040320-6178cf8866d8b-duplicator.bak
+- PASS: Existing Apache '.htaccess' was removed
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/home/arvy5666/arvtest.co/www/arv2_[HASH]_20211027034559_archive.zip"
+SIZE________________: 1.22GBFile timestamp set to Current: 2021-10-27 04:04:09
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 04:04:21 - RUNTIME: 60.9340 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 04:05:12
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.3.31 -- Build Server: 10.3.31
+FILE SIZE:	dup-database__[HASH].sql (39.92MB)
+TIMEOUT:	5000
+MAXPACK:	16777216
+SQLMODE:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/arvy5666/arvtest.co/www/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	12
+RENAMED TABLES:	0
+QUERIES RAN:	32630
+
+wp_actionscheduler_actions: (67)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (2)
+wp_actionscheduler_logs: (198)
+wp_aiowps_events: (0)
+wp_aiowps_failed_logins: (5000)
+wp_aiowps_global_meta: (0)
+wp_aiowps_login_activity: (80)
+wp_aiowps_login_lockdown: (3621)
+wp_aiowps_permanent_block: (0)
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_ms_snippets: (0)
+wp_nextend2_image_storage: (0)
+wp_nextend2_section_storage: (1)
+wp_nextend2_smartslider3_generators: (0)
+wp_nextend2_smartslider3_sliders: (1)
+wp_nextend2_smartslider3_sliders_xref: (0)
+wp_nextend2_smartslider3_slides: (2)
+wp_options: (356)
+wp_postmeta: (5330)
+wp_posts: (1124)
+wp_snippets: (7)
+wp_term_relationships: (224)
+wp_term_taxonomy: (77)
+wp_termmeta: (0)
+wp_terms: (77)
+wp_usermeta: (111)
+wp_users: (5)
+wp_wfblockediplog: (962)
+wp_wfblocks7: (12)
+wp_wfconfig: (260)
+wp_wfcrawlers: (142)
+wp_wffilechanges: (0)
+wp_wffilemods: (5023)
+wp_wfhits: (1817)
+wp_wfhoover: (0)
+wp_wfissues: (2)
+wp_wfknownfilelist: (5023)
+wp_wflivetraffichuman: (0)
+wp_wflocs: (1)
+wp_wflogins: (2012)
+wp_wfls_2fa_secrets: (0)
+wp_wfls_settings: (19)
+wp_wfnotifications: (2)
+wp_wfpendingissues: (0)
+wp_wfreversecache: (12)
+wp_wfsnipcache: (0)
+wp_wfstatus: (943)
+wp_wftrafficrates: (0)
+wp_wpforms_tasks_meta: (34)
+Removed '26' cache/transient rows
+
+INSERT DATA RUNTIME: 6.0987 sec.
+STEP-2 COMPLETE @ 04:05:18 - RUNTIME: 6.1158 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 04:05:21
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "AI and Robotics Partner of Choice"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/beea5500/beeativewpdemo.co/www"
+path_new______________: "/home/arvy5666/arvtest.co/www"
+siteurl_______________: "http://arvtestco.beeative.codeorange.host"
+url_old_______________: "http://beeativewpdemoco.beeative.codeorange.host"
+url_new_______________: "http://arvtestco.beeative.codeorange.host"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    67][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:   198][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_aiowps_events"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_aiowps_failed_logins"_________________________[ROWS:  5000][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_aiowps_global_meta"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_aiowps_login_activity"________________________[ROWS:    80][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_aiowps_login_lockdown"________________________[ROWS:  3621][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_aiowps_permanent_block"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ms_snippets"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nextend2_image_storage"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nextend2_section_storage"_____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_generators"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_sliders"________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_sliders_xref"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_slides"_________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   356][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  5330][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:  1124][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_snippets"_____________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   224][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    77][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    77][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   111][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_wfblockediplog"_______________________________[ROWS:   962][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_wfblocks7"____________________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_wfconfig"_____________________________________[ROWS:   260][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_wfcrawlers"___________________________________[ROWS:   142][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_wffilechanges"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wffilemods"___________________________________[ROWS:  5023][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_wfhits"_______________________________________[ROWS:  1817][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_wfhoover"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfissues"_____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_wfknownfilelist"______________________________[ROWS:  5023][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_wflivetraffichuman"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wflocs"_______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_wflogins"_____________________________________[ROWS:  2012][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_wfls_2fa_secrets"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfls_settings"________________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_wfnotifications"______________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_wfpendingissues"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfreversecache"_______________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_wfsnipcache"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfstatus"_____________________________________[ROWS:   943][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+
+EVALUATE TABLE: "wp_wftrafficrates"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_tasks_meta"___________________________[ROWS:    34][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/beea5500/beeativewpdemo.co/www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  2:"\/home\/beea5500\/beeativewpdemo.co\/www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  3:"%2Fhome%2Fbeea5500%2Fbeeativewpdemo.co%2Fwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  4:"\home\beea5500\beeativewpdemo.co\www" ============> "/home/arvy5666/arvtest.co/www"
+	SEARCH  5:"\\home\\beea5500\\beeativewpdemo.co\\www" ========> "\/home\/arvy5666\/arvtest.co\/www"
+	SEARCH  6:"%5Chome%5Cbeea5500%5Cbeeativewpdemo.co%5Cwww" ====> "%2Fhome%2Farvy5666%2Farvtest.co%2Fwww"
+	SEARCH  7:"//beeativewpdemoco.beeative.codeorange.host" =====> "//arvtestco.beeative.codeorange.host"
+	SEARCH  8:"\/\/beeativewpdemoco.beeative.codeorange.host" ===> "\/\/arvtestco.beeative.codeorange.host"
+	SEARCH  9:"%2F%2Fbeeativewpdemoco.beeative.codeorange.host" => "%2F%2Farvtestco.beeative.codeorange.host"
+	SEARCH 10:"https://arvtestco.beeative.codeorange.host" ======> "http://arvtestco.beeative.codeorange.host"
+	SEARCH 11:"https:\/\/arvtestco.beeative.codeorange.host" ====> "http:\/\/arvtestco.beeative.codeorange.host"
+	SEARCH 12:"https%3A%2F%2Farvtestco.beeative.codeorange.host" => "http%3A%2F%2Farvtestco.beeative.codeorange.host"
+--------------------------------------
+SCANNED:	Tables:53 	|	 Rows:32548 	|	 Cells:219138 
+UPDATED:	Tables:7 	|	 Rows:3634 	|	 Cells:4081 
+ERRORS:		0 
+RUNTIME:	2.750000 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 04:05:24 - RUNTIME: 2.7861 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

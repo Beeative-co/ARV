@@ -1,0 +1,26 @@
+#BEGIN ManageDomain
+#Default redirect to www is added courtesy of ManageDomain webhosting to improve speed and SEO
+<IfModule mod_rewrite.c>
+RewriteEngine on
+# Redirect all incorrect subdomains to www
+RewriteCond %{HTTP_HOST} !^www.arvtest.co$ [NC]
+RewriteCond %{HTTP_HOST} !^(.*).beeative.codeorange.host$ [NC]
+RewriteRule ^(.*)$ http://www.arvtest.co/$1 [L,R=301]
+</IfModule>
+#END ManageDomain
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
